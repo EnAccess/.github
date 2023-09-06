@@ -1,4 +1,4 @@
-![EnAccess Logo](https://github.com/EnAccess/.github/assets/14202480/cea276ce-1566-4458-90ea-15767855daef)
+![EnAccess header Open Innovation for Energy Access](https://github.com/EnAccess/.github/assets/14202480/e703eb72-dfd3-4071-82b5-3ea1bbe5b5b4)
 
 ### ⭐ What we do
 
