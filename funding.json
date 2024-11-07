@@ -6,7 +6,7 @@
   "entity": {
     "type": "organisation",
     "role": "owner",
-    "name": "EnAccess",
+    "name": "EnAccess Foundation",
     "email": "info@enaccess.org",
     "phone": "",
     "description": "EnAccess is a globally active NGO, registered in the Netherlands. We are dedicated to promote the usage and adoption of Open Source and Open Innovation in the Energy Access sector. And therewith progress on the path of achieving universal access to energy (SDG7).", // Required. Information about the entity. Max len 2000.
@@ -21,6 +21,21 @@
     {
       "guid": "micropowermanager", // Required. A short unique ID for the project. Lowercase-alphanumeric-dashes only. eg: my-cool-project. Max len 32.
       "name": "MicroPowerManager", // Required. Name of the project. Max len 250.
+      "description": "", // Required. Description of the project. Max len 2000.
+      "webpageUrl": {
+        "url": "https://micropowermanager.io/", // Required. Webpage with information about the project. Starts with https:// or http://. Max len 250.
+        "wellKnown": "" // Optional. Required if the above url and the URL of the funding.json manifest do not have the same hostname. Starts with https:// or http://. Max len 250.
+      },
+      "repositoryUrl": {
+        "url": "", // Required. URL of the repository where the project's source code and other assets are available. Starts with https:// or http://. Max len 250.
+        "wellKnown": "" // Optional. Required if the above url and the URL of the funding.json manifest do not have the same hostname. Starts with https:// or http://. Max len 250.
+      },
+      "licenses": ["MIT"], // Required. The project's licenses (up to 5). For standard licenses, use the license ID from the SDPX index prefixed by "spdx:". eg: "spdx:GPL-3.0", "spdx:CC-BY-SA-4.0"
+      "tags": [] // Required. Up to 10 general tags describing the project. Lowercase-alphanumeric-dashes (max 32 chars). eg: ["programming", "developer-tools"]. For reference, see tags.txt
+    },
+     {
+      "guid": "digitalsupporthub", // Required. A short unique ID for the project. Lowercase-alphanumeric-dashes only. eg: my-cool-project. Max len 32.
+      "name": "Digital Support Hub", // Required. Name of the project. Max len 250.
       "description": "", // Required. Description of the project. Max len 2000.
       "webpageUrl": {
         "url": "https://micropowermanager.io/", // Required. Webpage with information about the project. Starts with https:// or http://. Max len 250.
