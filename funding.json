@@ -17,7 +17,7 @@
     {
       "guid": "micropowermanager",
       "name": "MicroPowerManager",
-      "description": "To be described...",
+      "description": "Open Source Management Tool for Decentralized Utilities",
       "webpageUrl": {
         "url": "https://micropowermanager.io/",
         "wellKnown": "https://micropowermanager.io/.well-known/funding-manifest-urls"
@@ -32,7 +32,7 @@
     {
       "guid": "digital-support-hub",
       "name": "Digital Support Hub",
-      "description": "To be described...",
+      "description": "An intuitive, user-friendly, interactive open-source map of digital tools for Distributed Renewable Energy (DRE) companies providing. It features a built-in \"wizard\" to assist businesses in selecting the most suitable tools for their needs.",
       "webpageUrl": {
         "url": "http://digitalization-support-hub.org/",
         "wellKnown": "http://digitalization-support-hub.org/.well-known/funding-manifest-urls"
