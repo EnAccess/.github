@@ -10,7 +10,7 @@
     "description": "EnAccess is a globally active NGO, registered in the Netherlands. We are dedicated to promote the usage and adoption of Open Source and Open Innovation in the Energy Access sector. And therewith progress on the path of achieving universal access to energy (SDG7).",
     "webpageUrl": {
       "url": "https://enaccess.org/",
-      "wellKnown": "https://github.com/EnAccess/"
+      "wellKnown": "https://enaccess.org/.well-known/funding-manifest-urls"
     }
   },
 
@@ -21,13 +21,13 @@
       "description": "TBD",
       "webpageUrl": {
         "url": "https://micropowermanager.io/",
-        "wellKnown": "https://github.com/EnAccess/"
+        "wellKnown": "https://micropowermanager.io/.well-known/funding-manifest-urls"
       },
       "repositoryUrl": {
         "url": "https://github.com/EnAccess/micropowermanager",
-        "wellKnown": "" // Optional. Required if the above url and the URL of the funding.json manifest do not have the same hostname. Starts with https:// or http://. Max len 250.
+        "wellKnown": "https://github.com/EnAccess/micropowermanager/.well-known/funding-manifest-urls"
       },
-      "licenses": ["MIT"],
+      "licenses": ["spdx:MIT"],
       "tags": ["communication", "development", "energy-access"]
     },
     {
@@ -35,15 +35,15 @@
       "name": "Digital Support Hub",
       "description": "TBD",
       "webpageUrl": {
-        "url": "https://enaccess.org/",
-        "wellKnown": ""
+        "url": "http://digitalization-support-hub.org/",
+        "wellKnown": "http://digitalization-support-hub.org/.well-known/funding-manifest-urls"
       },
       "repositoryUrl": {
-        "url": "", // Required. URL of the repository where the project's source code and other assets are available. Starts with https:// or http://. Max len 250.
-        "wellKnown": "" // Optional. Required if the above url and the URL of the funding.json manifest do not have the same hostname. Starts with https:// or http://. Max len 250.
+        "url": "https://github.com/EnAccess/digitalization-support-hub",
+        "wellKnown": "https://github.com/EnAccess/digitalization-support-hub"
       },
-      "licenses": ["MIT"], // Required. The project's licenses (up to 5). For standard licenses, use the license ID from the SDPX index prefixed by "spdx:". eg: "spdx:GPL-3.0", "spdx:CC-BY-SA-4.0"
-      "tags": [] // Required. Up to 10 general tags describing the project. Lowercase-alphanumeric-dashes (max 32 chars). eg: ["programming", "developer-tools"]. For reference, see tags.txt
+      "licenses": ["spdx:MIT"],
+      "tags": ["education", "digitalization"]
     }
   ],
 
