@@ -53,19 +53,7 @@
         "guid": "bank-transfer",
         "type": "bank",
         "address": "info@enaccess.org",
-        "description": "We will accept direct bank transfers. Please e-mail us for details."
-      },
-      {
-        "guid": "paypal",
-        "type": "payment-provider",
-        "address": "TBD",
-        "description": "TBD"
-      },
-      {
-        "guid": "patreon",
-        "type": "payment-provider",
-        "address": "TBD",
-        "description": "Support us via Patreon"
+        "description": "We will accept direct bank transfers. Please e-mail us for details and reference `funding.json`."
       }
     ],
 
@@ -78,7 +66,7 @@
         "amount": 500,
         "currency": "USD",
         "frequency": "monthly",
-        "channels": ["bank-transfer", "paypal"]
+        "channels": ["bank-transfer"]
       },
       {
         "guid": "micropowermanager-vue3-migration",
@@ -88,7 +76,7 @@
         "amount": 5000,
         "currency": "USD",
         "frequency": "one-time",
-        "channels": ["bank-transfer", "paypal"]
+        "channels": ["bank-transfer"]
       }
     ],
 
