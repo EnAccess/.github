@@ -9,8 +9,7 @@
     "phone": "",
     "description": "EnAccess is a globally active NGO, registered in the Netherlands. We are dedicated to promote the usage and adoption of Open Source and Open Innovation in the Energy Access sector. And therewith progress on the path of achieving universal access to energy (SDG7).",
     "webpageUrl": {
-      "url": "https://enaccess.org/",
-      "wellKnown": "https://enaccess.org/.well-known/funding-manifest-urls"
+      "url": "https://enaccess.org/"
     }
   },
 
