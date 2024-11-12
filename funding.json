@@ -28,21 +28,6 @@
       },
       "licenses": ["spdx:MIT"],
       "tags": ["communication", "development", "energy-access"]
-    },
-    {
-      "guid": "digital-support-hub",
-      "name": "Digital Support Hub",
-      "description": "An intuitive, user-friendly, interactive open-source map of digital tools for Distributed Renewable Energy (DRE) companies providing. It features a built-in \"wizard\" to assist businesses in selecting the most suitable tools for their needs.",
-      "webpageUrl": {
-        "url": "http://digitalization-support-hub.org/",
-        "wellKnown": "http://digitalization-support-hub.org/.well-known/funding-manifest-urls"
-      },
-      "repositoryUrl": {
-        "url": "https://github.com/EnAccess/digitalization-support-hub",
-        "wellKnown": "https://github.com/EnAccess/digitalization-support-hub/blob/main/.well-known/funding-manifest-urls"
-      },
-      "licenses": ["spdx:MIT"],
-      "tags": ["education", "digitalization"]
     }
   ],
 
