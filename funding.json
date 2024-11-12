@@ -18,14 +18,14 @@
     {
       "guid": "micropowermanager",
       "name": "MicroPowerManager",
-      "description": "TBD",
+      "description": "To be described...",
       "webpageUrl": {
         "url": "https://micropowermanager.io/",
         "wellKnown": "https://micropowermanager.io/.well-known/funding-manifest-urls"
       },
       "repositoryUrl": {
         "url": "https://github.com/EnAccess/micropowermanager",
-        "wellKnown": "https://github.com/EnAccess/micropowermanager/.well-known/funding-manifest-urls"
+        "wellKnown": "https://github.com/EnAccess/micropowermanager/blob/main/.well-known/funding-manifest-urls"
       },
       "licenses": ["spdx:MIT"],
       "tags": ["communication", "development", "energy-access"]
@@ -33,14 +33,14 @@
     {
       "guid": "digital-support-hub",
       "name": "Digital Support Hub",
-      "description": "TBD",
+      "description": "To be described...",
       "webpageUrl": {
         "url": "http://digitalization-support-hub.org/",
         "wellKnown": "http://digitalization-support-hub.org/.well-known/funding-manifest-urls"
       },
       "repositoryUrl": {
         "url": "https://github.com/EnAccess/digitalization-support-hub",
-        "wellKnown": "https://github.com/EnAccess/digitalization-support-hub"
+        "wellKnown": "https://github.com/EnAccess/digitalization-support-hub/blob/main/.well-known/funding-manifest-urls"
       },
       "licenses": ["spdx:MIT"],
       "tags": ["education", "digitalization"]
