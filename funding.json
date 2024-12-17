@@ -34,6 +34,18 @@
   "funding": {
     "channels": [
       {
+        "guid": "github-sponsors",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/EnAccess",
+        "description": "Sponsor us using the GitHub Sponsors program."
+      },
+      {
+        "guid": "paypal",
+        "type": "payment-provider",
+        "address": "https://www.paypal.me/EnAccess",
+        "description": "Sponsor us using PayPal program."
+      },
+      {
         "guid": "bank-transfer",
         "type": "bank",
         "address": "info@enaccess.org",
@@ -50,7 +62,7 @@
         "amount": 500,
         "currency": "USD",
         "frequency": "monthly",
-        "channels": ["bank-transfer"]
+        "channels": ["github-sponsors", "paypal", "bank-transfer"]
       },
       {
         "guid": "micropowermanager-vue3-migration",
@@ -60,7 +72,7 @@
         "amount": 5000,
         "currency": "USD",
         "frequency": "one-time",
-        "channels": ["bank-transfer"]
+        "channels": ["github-sponsors", "paypal", "bank-transfer"]
       }
     ],
 
