@@ -42,7 +42,14 @@
         "wellKnown": "https://github.com/EnAccess/digitalization-support-hub/blob/main/.well-known/funding-manifest-urls"
       },
       "licenses": ["spdx:MIT"],
-      "tags": ["education", "information-management", "energy-access"]
+      "tags": [
+        "education",
+        "information-management",
+        "energy-access",
+        "documentation",
+        "knowledge",
+        "productivity"
+      ]
     }
   ],
 
@@ -70,9 +77,9 @@
 
     "plans": [
       {
-        "guid": "micropowermanager-hosting",
+        "guid": "mpm-hosting",
         "status": "active",
-        "name": "MicroPowerManager Hosting support",
+        "name": "MicroPowerManager: Hosting support",
         "description": "Support the MicroPowerManager environment by covering monthly server costs.",
         "amount": 500,
         "currency": "USD",
@@ -80,13 +87,53 @@
         "channels": ["github-sponsors", "paypal", "bank-transfer"]
       },
       {
-        "guid": "micropowermanager-vue3-migration",
+        "guid": "mpm-vue3-migration",
         "status": "active",
-        "name": "MicroPowerManager Frontend Vue3 migration",
+        "name": "MicroPowerManager: Frontend Vue3 migration",
         "description": "The MicroPowerManager currently runs on the (by now) deprecated Vue2 frontend. This task is to update the frontend framework and it's depdendencies to Vue3 to make the MicroPowerManager a future proof application.",
         "amount": 5000,
         "currency": "USD",
         "frequency": "one-time",
+        "channels": ["github-sponsors", "paypal", "bank-transfer"]
+      },
+      {
+        "guid": "dsh-frontend-engineering",
+        "status": "active",
+        "name": "Digitalization Support Hub: Frontend engineering support",
+        "description": "For implementation and development of the mobile and desktop versions of the tools map and the wizard easing the interaction with our created database, we estimate the need for 3 month part-time from a mid-level frontend developer.",
+        "amount": 8250,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": ["github-sponsors", "paypal", "bank-transfer"]
+      },
+      {
+        "guid": "dsh-ux-design",
+        "status": "active",
+        "name": "Digitalization Support Hub: UX design for the tools map and wizard:",
+        "description": "This activity aims to create the basis for an interactive digital tools map with two navigation methods: (1) Project lifecycle category filtering & (2) Guided \"wizard\" with multiple-choice questions supporting users to identify suitable digital tools.",
+        "amount": 6500,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": ["github-sponsors", "paypal", "bank-transfer"]
+      },
+      {
+        "guid": "dsh-featured-integrations",
+        "status": "active",
+        "name": "Digitalization Support Hub: Build Integrations/connectors for up to 5 tools featured in the tools map for Energy Access tools",
+        "description": "For some of the tools featured and included in the tools map, we want to provide free connectors to other tools or systems used by the SMEs or possibilities to extract data; based on our current research, we estimate this will be required for approx. 5 tools.",
+        "amount": 17500,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": ["github-sponsors", "paypal", "bank-transfer"]
+      },
+      {
+        "guid": "dsh-monthly-tool-checks",
+        "status": "active",
+        "name": "Digitalization Support Hub: Monthly checks of third-party links and references",
+        "description": "To ensure the smooth and up-to-date function of the tools map, we anticipate the need for at least one year before a large enough community has grown to regularly check, validate, and, if required, update links and other references on the tools featured. Also, user feedback shall be reviewed and, where appropriate, be converted into tickets/issues.",
+        "amount": 250,
+        "currency": "USD",
+        "frequency": "monthly",
         "channels": ["github-sponsors", "paypal", "bank-transfer"]
       }
     ],
