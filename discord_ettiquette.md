@@ -2,7 +2,7 @@
 
 The OSEA community strives to ensure all its members can express themselves safely. Please follow and read the [Code of Conduct ](./CODE_OF_CONDUCT.md) carefully. 
 
-Our community uses the Discord platform to engage in conversations and other OSEA-related activities. [Join us by following this link](https://discord.com/invite/sWTA2QTmS4), and we will grow the community by adhering to the etiquette.
+Our community uses the Discord platform to engage in conversations and other OSEA-related activities. [Join us by following this link](https://discord.oseas.org), and we will grow the community by adhering to the etiquette.
 
 - Appropriate Language: Always choose your words carefully, avoiding offensive, derogatory, or discriminatory language. This includes refraining from excessive slang or curse words that may be confusing or offensive.
 - Courtesy and Respect: Treat everyone with courtesy and respect, regardless of their position, background, or personal beliefs.  This includes using appropriate titles and honorifics, actively listening to others, and valuing their opinions.
